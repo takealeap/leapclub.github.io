@@ -1,0 +1,10 @@
+header:
+
+
+  - titles:
+      en      : &EN      Join us
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+    url: /joinus.html

@@ -1,0 +1,37 @@
+---
+layout: article
+titles: Join us
+---
+We are looking for people who are passionate about leveraging technology to drive sustainable consumption.
+
+Here are some of our current openings:
+<br>
+<br>
+<div class="posts">
+  {% for post in site.posts %}
+  {% if post.title contains 'Developer' or post.title contains 'Community' %}
+    <article class="post">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+         <div class="card">
+             <div class="card__content">
+                   <div class="card__header">
+                       <h4>{{ post.title }}</h4>
+                    </div>
+                    </a>
+
+              <div class="entry">
+                      {{ post.excerpt }}
+              </div>
+              <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+</div>
+</div>
+    </article>
+     {% endif %}
+     <br>
+  {% endfor %}
+  </div>
+
+
+<p>Besides the above mentioned full-time positions we are also open to having interns who are willing to stay with us for 3-6 months.</p>
+
+<p>Please write to us at <b> hi@leaplabs.io </b> if you want to explore other roles and opportunities.</p>
