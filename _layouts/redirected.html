@@ -6,7 +6,15 @@
 <meta http-equiv="refresh" content="0;url={{ page.redirect_to }}" />
 </head>
 <body>
-    <h1>Redirecting...</h1>
+
+  <div class="hero hero--dark" style="background-color: #123;">
+  <div class="hero__content">
+    <h3>Loading Leap Club..</h3>
+    <a href="{{ page.redirect_to }}">Click here if you are not redirected.<a>
+    <script>location='{{ page.redirect_to }}'</script>
+  </div>
+</div>
+    <h3>Loading Leap Club...</h3>
       <a href="{{ page.redirect_to }}">Click here if you are not redirected.<a>
       <script>location='{{ page.redirect_to }}'</script>
 </body>
